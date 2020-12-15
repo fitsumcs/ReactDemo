@@ -36,10 +36,13 @@ class Content extends React.Component{
 
      {/* Props Demo */}
     <h1 className="UnderLine">Props Demo</h1>
-    <PropsDemo  name = "Kebede"/>
+    <PropsDemo  name = "Alex"/>
+    <PropsDemo  />
    </div>
     )
   }
+
+
 
 }
 

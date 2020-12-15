@@ -4,6 +4,8 @@ import React from 'react';
 
 class PropsDemo extends React.Component{
 
+
+
   render(){
     return(
       <div>
@@ -12,6 +14,10 @@ class PropsDemo extends React.Component{
     )
   }
 
+}
+
+PropsDemo.defaultProps = {
+  name : "System"
 }
 
 
