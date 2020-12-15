@@ -1,5 +1,5 @@
 import React from 'react';
-
+import StudentList  from './StudentList';
 class Content extends React.Component{
 
   render(){
@@ -18,6 +18,9 @@ class Content extends React.Component{
 
      {/* Applying Inline Style  */}
      <p style={style}>Apply Style </p>
+
+     {/* List of Students  */}
+     <StudentList />
    </div>
     )
   }
