@@ -1,5 +1,6 @@
 import React from 'react';
 import StudentList  from './StudentList';
+import StateDemo1  from './StateDemo1';
 class Content extends React.Component{
 
   render(){
@@ -17,10 +18,13 @@ class Content extends React.Component{
      <p>Conditional Statement = {i==1 ? "True" : "False"}</p>
 
      {/* Applying Inline Style  */}
-     <p style={style}>Apply Style </p>
+     <p style={style}>Apply Inline Style </p>
 
      {/* List of Students  */}
      <StudentList />
+
+     {/* State Demo 2*/}
+     <StateDemo1 />
    </div>
     )
   }
