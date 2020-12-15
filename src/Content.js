@@ -3,6 +3,7 @@ import StudentList  from './StudentList';
 import StateDemo1  from './StateDemo1';
 import PropsDemo  from './PropsDemo';
 import PropsandState  from './PropsandState';
+import PropsValidation from "./PropsValidation";
 
 // import style.css stylesheet
 import './style.css'
@@ -41,6 +42,9 @@ class Content extends React.Component{
 
     {/* Props and State  */}
     <PropsandState />
+
+    {/* Props validation  */}
+    <PropsValidation/>
 
    </div>
     )
