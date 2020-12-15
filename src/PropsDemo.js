@@ -9,7 +9,7 @@ class PropsDemo extends React.Component{
   render(){
     return(
       <div>
-           <h1 > Welcome,  {this.props.name} !!</h1>
+           <p > Welcome,  {this.props.name} !!</p>
       </div>
     )
   }

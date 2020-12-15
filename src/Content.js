@@ -1,8 +1,8 @@
 import React from 'react';
 import StudentList  from './StudentList';
 import StateDemo1  from './StateDemo1';
-
 import PropsDemo  from './PropsDemo';
+import PropsandState  from './PropsandState';
 
 // import style.css stylesheet
 import './style.css'
@@ -38,6 +38,10 @@ class Content extends React.Component{
     <h1 className="UnderLine">Props Demo</h1>
     <PropsDemo  name = "Alex"/>
     <PropsDemo  />
+
+    {/* Props and State  */}
+    <PropsandState />
+
    </div>
     )
   }
