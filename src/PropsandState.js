@@ -1,5 +1,8 @@
 import React from 'react';
 
+// import style.css stylesheet
+import './style.css'
+
 
 
 class PropsandState extends React.Component{
@@ -27,12 +30,10 @@ class PropsandState extends React.Component{
 //pass props
 class PropsPass extends React.Component{
 
-
-
     render(){
       return(
         <div>
-            <h3>State and Props Example</h3>
+            <h3 className="UnderLine ">State and Props Example</h3>
              <p > Welcome,  {this.props.jtp} !!</p>
         </div>
       )
