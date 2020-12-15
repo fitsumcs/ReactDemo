@@ -27,9 +27,11 @@ class Content extends React.Component{
      <p style={style}>Apply Inline Style </p>
 
      {/* List of Students  */}
+     <h1 className="UnderLine">State Demo 1</h1>
      <StudentList />
 
      {/* State Demo 2*/}
+     <h1 className="UnderLine">State Demo 2</h1>
      <StateDemo1 />
 
      {/* Props Demo */}

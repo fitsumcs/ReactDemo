@@ -20,7 +20,6 @@ class StateDemo1 extends React.Component{
   render(){
     return(
         <div>
-            <h1>State Demo 2</h1>
            
            {/* Display Based on Toggle Value */}
            {
